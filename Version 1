@@ -35,7 +35,7 @@ def dist(A,B):
     return c
     
 def length(word):
-    word = split(word)
+    word = list(word)
     letters = len(word)
     length = 0
     for i in range(letters):
